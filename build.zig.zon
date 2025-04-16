@@ -1,0 +1,18 @@
+.{
+    .name = .mikktspace_zig,
+    .version = "0.0.0",
+    .fingerprint = 0x8c81d0e440fee09a, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .MikkTSpace = .{
+            .url = "https://github.com/mmikk/MikkTSpace/archive/3e895b49d05ea07e4c2133156cfa94369e19e409.tar.gz",
+            .hash = "1220cdcbc6a7108c2a6d032a3d1eddbd5852b7ab2057b1a897a96c44f0965cbba985",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "README.md",
+    },
+}
